@@ -239,11 +239,23 @@ main {
     ul {
       justify-content: start;
       flex-direction: column;
+      text-align: center;
     }
   }
 
   @media screen and (max-width: 992px) {
     .benefits {
       width: 100%;
+    }
+    /* .header {
+        text-align: center;
+    } */
+  }
+
+
+@media screen and (max-width: 370px) {
+    .float-left {
+        float: none;
+        margin-right: 5px;
     }
   }
